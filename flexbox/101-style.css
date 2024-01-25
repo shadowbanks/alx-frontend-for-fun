@@ -1,0 +1,49 @@
+:root {
+    --box-font-size: 4rem;
+    --box-height: 10rem;
+    --box-width: 15rem;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.box {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1, .box5 {
+    height: calc(var(--box-height) * .25);
+    width: calc(var(--box-width) * .25);
+    font-size: calc(var(--box-font-size) * .25);
+}
+
+.box2, .box4 {
+    height: calc(var(--box-height) * .5);
+    width: calc(var(--box-width) * .5);
+    font-size: calc(var(--box-font-size) * .5);
+}
+
+.box1 {
+    background-color: rgb(0, 255, 0);
+}
+.box2 {
+    background-color: rgb(0, 0, 255);
+}
+.box3 {
+    background-color: rgb(62, 66, 69);
+    height: var(--box-height);
+    width: var(--box-width);
+    font-size: var(--box-font-size);
+}
+.box4 {
+    background-color: rgb(214, 114, 218);
+}
+.box5 {
+    background-color: rgb(255, 165, 0);
+}
